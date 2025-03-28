@@ -56,6 +56,7 @@ const clientConfig = {
       template: `${__dirname}/src/client/index.html`,
     }),
   ],
+  resolve,
 };
 
 module.exports = [serverConfig, clientConfig];
